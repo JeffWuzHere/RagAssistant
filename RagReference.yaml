@@ -1,0 +1,39 @@
+---
+id: "FS-{{CONVERSATION_ID}}"
+tags: [{{TAG_1}}, {{TAG_2}}]
+topic: "{{CLEANED_SUBJECT}}"
+date: "{{ISO_DATE}}"
+---
+
+# Knowledge Base Entry: {{CLEANED_SUBJECT}}
+
+## 🎯 Executive Summary
+**The Issue:** {{ONE_SENTENCE_PROBLEM_DESCRIPTION}}
+**The Fix:** {{ONE_SENTENCE_SOLUTION}}
+
+---
+
+## 🛠 Final Resolution (The "2nd Me" Guide)
+> [!TIP]
+> **Use this solution if a customer asks about:** {{TRIGGER_KEYWORDS}}
+> 
+> **Steps to solve:**
+> 1. {{STEP_1}}
+> 2. {{STEP_2}}
+> 3. {{STEP_3}}
+
+---
+
+## 📝 Sanitized Interaction History
+
+**[CUSTOMER]:**
+{{SANITIZED_INITIAL_MESSAGE}}
+
+**[SUPPORT_AGENT]:**
+{{SANITIZED_YOUR_REPLY}}
+
+---
+
+## 💡 Internal Insights (If applicable)
+*This section contains logic extracted from internal notes or agent-to-agent talk.*
+- {{INTERNAL_NOTE_INSIGHT_1}}
